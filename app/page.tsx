@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function Home() {
   return (
     <div className="w-screen h-screen bg-indigo-600 overflow-hidden">
@@ -12,7 +14,7 @@ export default function Home() {
         bg-slate-900 rounded-lg text-white p-4 overflow-y-auto"
       >
         sidebar<br /><br />
-
+        <Link href="/calculator" className="p-4 bg-emerald-600">Calculator</Link>
       </div>
 
       {/* MAIN CONTENT */}
