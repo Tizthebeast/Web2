@@ -14,7 +14,12 @@ export default function Home() {
         bg-slate-900 rounded-lg text-white p-4 overflow-y-auto"
       >
         sidebar<br /><br />
-        <Link href="/calculator" className="p-4 bg-emerald-600">Calculator</Link>
+        <div className="grid grid-cols-2 gap-4">
+          <Link href="/signup" className="p-4 bg-orange-500 text-center rounded-lg hover:bg-orange-600">Sign Up</Link>
+          <Link href="/login" className="p-4 bg-emerald-600 text-center rounded-lg hover:bg-emerald-700">Login</Link>
+          <h2>Contents:</h2><br />
+          <Link href="/calculator" className="p-4 bg-emerald-600 text-center rounded-lg hover:bg-emerald-700">Calculator</Link>
+        </div>
       </div>
 
       {/* MAIN CONTENT */}

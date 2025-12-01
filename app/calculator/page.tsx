@@ -74,8 +74,4 @@ export default function Calculator() {
 
     )
 
-
-
-
-
 }
